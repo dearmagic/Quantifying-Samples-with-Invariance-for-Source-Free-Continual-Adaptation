@@ -1,0 +1,57 @@
+
+begin
+start training
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[0, 1, 2, 3, 4, 5, 6, 8, 9]
+tensor([ 59.0645,  56.4484,  26.5414,  60.8329,  18.9420,  69.5207,  20.0328,
+         35.1201, 105.2645], device='cuda:0')
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+tensor([39.7795, 42.0604, 59.5156, 52.1628, 28.8030, 30.6811, 38.1871, 17.7873,
+        85.3278, 42.5720], device='cuda:0')
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[4, 11, 16, 17, 21, 22, 23, 25, 26, 27, 28, 29, 49]
+tensor([24.5480, 17.0913, 18.6101, 15.3901, 33.1570, 60.1559, 23.9209, 55.0208,
+        96.9246, 25.5727, 76.0933, 27.8925, 45.5228], device='cuda:0')
+[20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[11, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+tensor([24.0754, 74.8106, 29.7997, 85.6514, 59.3963, 15.0566, 32.4053, 49.8077,
+        26.0358, 31.0279, 52.1794], device='cuda:0')
+[30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[36, 40, 41, 42, 43, 44, 46, 47, 48, 49]
+tensor([17.3376, 48.4722, 28.5408, 71.4968, 89.8525, 19.4658, 54.9673, 54.6474,
+        68.1979, 83.9635], device='cuda:0')
+[40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[17, 28, 50, 51, 52, 53, 54, 55, 57, 58, 59]
+tensor([15.2905, 35.7061, 79.0116, 38.2113, 39.3267, 28.2735, 31.8661, 60.3813,
+        46.2444, 21.6427, 31.8358], device='cuda:0')
+[50, 51, 52, 53, 54, 55, 56, 57, 58, 59]

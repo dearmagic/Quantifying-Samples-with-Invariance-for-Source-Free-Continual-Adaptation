@@ -1,0 +1,85 @@
+begin
+start training
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 22, 35, 40, 59, 72, 75, 83, 87, 113, 124]
+tensor([ 19.4877, 194.8596,  87.8958,  44.6619, 145.7527,  70.9490, 128.4131,
+         51.9633,  41.6634,  73.0740,  99.6499, 120.8867,  17.3392,  63.2559,
+         65.8025, 159.3468, 159.3721,  16.2102,  20.2719,  18.2365,  36.1196,
+         53.6379,  44.4016, 422.0079,  27.2025,  34.1036,  18.2276],
+       device='cuda:0')
+time_get_one_class_imgs_function 66.94622159004211
+
+  0%|          | 0/9 [00:00<?, ?it/s]total_mean_acc is 65.919
+
+ 11%|█         | 1/9 [02:49<22:39, 169.88s/it]total_mean_acc is 66.106
+
+ 22%|██▏       | 2/9 [05:46<20:16, 173.73s/it]time_get_imgs 6.67572021484375e-06
+time_construct_exemplar_set 0.4586329460144043
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.7295119762420654
+time_get_imgs 4.291534423828125e-06
+time_construct_exemplar_set 0.44504380226135254
+time_get_imgs 1.9073486328125e-06
+time_construct_exemplar_set 0.2669336795806885
+time_get_imgs 1.430511474609375e-06
+time_construct_exemplar_set 0.3101181983947754
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.3223693370819092
+time_get_imgs 1.9073486328125e-06
+time_construct_exemplar_set 0.30866026878356934
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.33470797538757324
+time_get_imgs 1.6689300537109375e-06
+time_construct_exemplar_set 0.29634642601013184
+time_get_imgs 1.1920928955078125e-06
+time_construct_exemplar_set 0.26270627975463867
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.5257852077484131
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.4967970848083496
+time_get_imgs 2.6226043701171875e-06
+time_construct_exemplar_set 0.35178542137145996
+time_get_imgs 1.6689300537109375e-06
+time_construct_exemplar_set 0.2704734802246094
+time_get_imgs 2.6226043701171875e-06
+time_construct_exemplar_set 0.17355060577392578
+time_get_imgs 1.6689300537109375e-06
+time_construct_exemplar_set 0.32843708992004395
+time_get_imgs 1.9073486328125e-06
+time_construct_exemplar_set 0.3149256706237793
+time_get_imgs 1.9073486328125e-06
+time_construct_exemplar_set 0.20977497100830078
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.3835878372192383
+time_get_imgs 1.6689300537109375e-06
+time_construct_exemplar_set 0.2832629680633545
+time_get_imgs 1.430511474609375e-06
+time_construct_exemplar_set 0.18129539489746094
+time_get_imgs 1.6689300537109375e-06
+time_construct_exemplar_set 0.31517624855041504
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.14333415031433105
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.5531272888183594
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.21923279762268066
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.2656443119049072
+time_get_imgs 2.6226043701171875e-06
+time_construct_exemplar_set 0.35723328590393066
+time_update_imgs 9.111289739608765
+total_mean_acc is 63.925
+
+ 33%|███▎      | 3/9 [08:39<17:20, 173.46s/it]total_mean_acc is 63.146
+
+ 44%|████▍     | 4/9 [18:57<29:05, 349.02s/it]total_mean_acc is 62.617
+
+ 56%|█████▌    | 5/9 [28:47<29:03, 435.85s/it]time_update_imgs 9.496300458908081
+total_mean_acc is 62.461
+
+ 67%|██████▋   | 6/9 [38:07<23:54, 478.18s/it]Terminated
+ERROR conda.cli.main_run:execute(124): `conda run python -u /public/home/imgbreaker/Desktop/CISFDA/CISFDA/main_test.py --source_model /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/model_source/domainNet-126/20240429-2246-OH_painting_ce_singe_gpu_resnet50_best_param.pth --weight_model /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/model_source/domainNet-126/negative/20240501-1929-OH_painting_ce_singe_gpu_resnet50_best_neg_param.pth --source painting --target sketch --model_name final_domainnet --txt painting2sketch.txt --dataset domainnet/sketch` failed. (See above for error)

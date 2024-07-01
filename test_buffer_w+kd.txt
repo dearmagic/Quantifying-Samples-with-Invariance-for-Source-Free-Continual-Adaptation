@@ -1,0 +1,139 @@
+
+epoch is 0.000
+total_mean_acc is 77.130
+
+epoch is 1.000
+total_mean_acc is 82.810
+
+epoch is 2.000
+total_mean_acc is 86.547
+
+epoch is 3.000
+total_mean_acc is 86.398
+
+epoch is 4.000
+total_mean_acc is 86.846
+
+epoch is 5.000
+total_mean_acc is 86.846
+
+epoch is 0.000
+total_mean_acc is 71.365
+
+epoch is 1.000
+total_mean_acc is 79.674
+
+epoch is 2.000
+total_mean_acc is 82.493
+
+epoch is 3.000
+total_mean_acc is 83.383
+
+epoch is 4.000
+total_mean_acc is 83.234
+
+epoch is 5.000
+total_mean_acc is 83.383
+
+epoch is 0.000
+total_mean_acc is 73.161
+final acc is 78.430
+
+epoch is 1.000
+total_mean_acc is 77.520
+final acc is 79.442
+
+epoch is 2.000
+total_mean_acc is 78.474
+final acc is 79.971
+
+epoch is 3.000
+total_mean_acc is 78.610
+final acc is 79.201
+
+epoch is 4.000
+total_mean_acc is 77.520
+final acc is 79.442
+
+epoch is 5.000
+total_mean_acc is 77.929
+final acc is 79.875
+
+epoch is 0.000
+total_mean_acc is 75.624
+final acc is 78.245
+
+epoch is 1.000
+total_mean_acc is 82.232
+final acc is 79.623
+
+epoch is 2.000
+total_mean_acc is 83.847
+final acc is 80.312
+
+epoch is 3.000
+total_mean_acc is 85.169
+final acc is 79.877
+
+epoch is 4.000
+total_mean_acc is 84.728
+final acc is 80.457
+
+epoch is 5.000
+total_mean_acc is 84.728
+final acc is 79.224
+
+epoch is 0.000
+total_mean_acc is 77.067
+final acc is 78.022
+
+epoch is 1.000
+total_mean_acc is 83.867
+final acc is 78.364
+
+epoch is 2.000
+total_mean_acc is 85.867
+final acc is 78.706
+
+epoch is 3.000
+total_mean_acc is 86.267
+final acc is 78.449
+
+epoch is 4.000
+total_mean_acc is 86.400
+final acc is 79.076
+
+epoch is 5.000
+total_mean_acc is 86.933
+final acc is 77.794
+
+epoch is 0.000
+total_mean_acc is 73.879
+final acc is 78.339
+
+epoch is 1.000
+total_mean_acc is 79.289
+final acc is 79.061
+
+epoch is 2.000
+total_mean_acc is 79.753
+final acc is 78.917
+
+epoch is 3.000
+total_mean_acc is 79.753
+final acc is 78.484
+
+epoch is 4.000
+total_mean_acc is 79.289
+final acc is 78.484
+
+epoch is 5.000
+total_mean_acc is 78.980
+final acc is 78.363
+final_acc is 79.061
+i-th task acc is 86.84604
+i-th task acc is 83.38279
+i-th task acc is 78.61035
+i-th task acc is 85.16887
+i-th task acc is 86.93333
+i-th task acc is 79.75270

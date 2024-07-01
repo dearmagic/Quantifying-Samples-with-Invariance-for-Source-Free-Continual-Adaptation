@@ -1,0 +1,26 @@
+begin
+Traceback (most recent call last):
+  File "/public/home/imgbreaker/Desktop/CISFDA/CISFDA/main_test.py", line 160, in <module>
+    pretrained_net = torch.nn.DataParallel(pretrained_net, device_ids=args.deviceid)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/nn/parallel/data_parallel.py", line 159, in __init__
+    _check_balance(self.device_ids)
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/nn/parallel/data_parallel.py", line 26, in _check_balance
+    dev_props = _get_devices_properties(device_ids)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/_utils.py", line 762, in _get_devices_properties
+    return [_get_device_attr(lambda m: m.get_device_properties(i)) for i in device_ids]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/_utils.py", line 762, in <listcomp>
+    return [_get_device_attr(lambda m: m.get_device_properties(i)) for i in device_ids]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/_utils.py", line 741, in _get_device_attr
+    return get_member(torch.cuda)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/_utils.py", line 762, in <lambda>
+    return [_get_device_attr(lambda m: m.get_device_properties(i)) for i in device_ids]
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/cuda/__init__.py", line 456, in get_device_properties
+    raise AssertionError("Invalid device id")
+AssertionError: Invalid device id
+ERROR conda.cli.main_run:execute(124): `conda run python -u /public/home/imgbreaker/Desktop/CISFDA/CISFDA/main_test.py --source_model /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/model_source/domainNet-126/20240429-2246-OH_painting_ce_singe_gpu_resnet50_best_param.pth --weight_model /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/model_source/domainNet-126/negative/20240501-1929-OH_painting_ce_singe_gpu_resnet50_best_neg_param.pth --source sketch --target real --model_name final_domainnet --txt sketch2real.txt --dataset domainnet/real` failed. (See above for error)

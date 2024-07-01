@@ -1,0 +1,370 @@
+begin
+start training
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 33, 34, 35, 36, 49, 53, 55, 61, 71, 74, 92, 103, 104, 105, 106, 107, 108, 109, 110, 113, 116, 117, 119, 120, 122, 124]
+tensor([ 22.7774, 172.8930,  19.6322,  65.3747,  18.4741,  33.4195,  28.4539,
+         77.3711, 113.6201,  56.8392,  35.2981, 165.7450,  32.7518,  15.1784,
+         51.5001,  32.6322,  69.9356, 134.6889,  15.0739,  39.5554,  31.7319,
+         26.8889,  15.1271,  69.6279,  18.1935,  16.6762,  37.6069,  22.8531,
+         59.0137,  19.1825,  29.5338,  65.3564,  30.1289,  20.7092,  32.3247,
+        119.4524,  39.6054, 161.4253,  28.9048,  28.7661,  15.5416,  15.7447,
+         68.9738,  34.0678,  24.3549], device='cuda:0')
+time_get_one_class_imgs_function 86.79446411132812
+  0%|          | 0/9 [00:00<?, ?it/s]total_mean_acc is 48.941
+ 11%|█         | 1/9 [01:32<12:16, 92.03s/it]total_mean_acc is 49.221
+ 22%|██▏       | 2/9 [02:55<10:27, 89.59s/it]time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.32695555686950684
+time_get_imgs 1.6689300537109375e-06
+time_construct_exemplar_set 0.30318284034729004
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.17484641075134277
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.3579742908477783
+time_get_imgs 2.6226043701171875e-06
+time_construct_exemplar_set 0.18410849571228027
+time_get_imgs 1.6689300537109375e-06
+time_construct_exemplar_set 0.16692543029785156
+time_get_imgs 2.86102294921875e-06
+time_construct_exemplar_set 0.13064932823181152
+time_get_imgs 1.9073486328125e-06
+time_construct_exemplar_set 0.2712728977203369
+time_get_imgs 2.6226043701171875e-06
+time_construct_exemplar_set 0.31228160858154297
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.3281722068786621
+time_get_imgs 3.0994415283203125e-06
+time_construct_exemplar_set 0.12015748023986816
+time_get_imgs 3.337860107421875e-06
+time_construct_exemplar_set 0.28321170806884766
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.2318713665008545
+time_get_imgs 2.6226043701171875e-06
+time_construct_exemplar_set 0.1961348056793213
+time_get_imgs 1.9073486328125e-06
+time_construct_exemplar_set 0.11947154998779297
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.2691493034362793
+time_get_imgs 3.337860107421875e-06
+time_construct_exemplar_set 0.2850069999694824
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.2472984790802002
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.24474072456359863
+time_get_imgs 1.6689300537109375e-06
+time_construct_exemplar_set 0.2538492679595947
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.177567720413208
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.12489795684814453
+time_get_imgs 1.9073486328125e-06
+time_construct_exemplar_set 0.2277235984802246
+time_get_imgs 1.9073486328125e-06
+time_construct_exemplar_set 0.28311753273010254
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.14439940452575684
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.12923789024353027
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.1816413402557373
+time_get_imgs 1.9073486328125e-06
+time_construct_exemplar_set 0.06571388244628906
+time_get_imgs 3.0994415283203125e-06
+time_construct_exemplar_set 0.26963138580322266
+time_get_imgs 2.6226043701171875e-06
+time_construct_exemplar_set 0.2356882095336914
+time_get_imgs 1.9073486328125e-06
+time_construct_exemplar_set 0.05893301963806152
+time_get_imgs 2.6226043701171875e-06
+time_construct_exemplar_set 0.194838285446167
+time_get_imgs 3.0994415283203125e-06
+time_construct_exemplar_set 0.21209120750427246
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.13558697700500488
+time_get_imgs 2.6226043701171875e-06
+time_construct_exemplar_set 0.28389620780944824
+time_get_imgs 3.5762786865234375e-06
+time_construct_exemplar_set 0.27164268493652344
+time_get_imgs 3.337860107421875e-06
+time_construct_exemplar_set 0.11817288398742676
+time_get_imgs 1.9073486328125e-06
+time_construct_exemplar_set 0.2153332233428955
+time_get_imgs 3.0994415283203125e-06
+time_construct_exemplar_set 0.1666102409362793
+time_get_imgs 2.6226043701171875e-06
+time_construct_exemplar_set 0.2869558334350586
+time_get_imgs 3.337860107421875e-06
+time_construct_exemplar_set 0.20061683654785156
+time_get_imgs 1.6689300537109375e-06
+time_construct_exemplar_set 0.14256882667541504
+time_get_imgs 2.6226043701171875e-06
+time_construct_exemplar_set 0.1669144630432129
+time_get_imgs 2.6226043701171875e-06
+time_construct_exemplar_set 0.11777710914611816
+time_get_imgs 2.6226043701171875e-06
+time_construct_exemplar_set 0.39412689208984375
+time_update_imgs 9.619367599487305
+total_mean_acc is 49.751
+ 33%|███▎      | 3/9 [04:30<09:05, 90.95s/it]total_mean_acc is 48.442
+ 44%|████▍     | 4/9 [14:51<20:49, 249.95s/it]total_mean_acc is 48.069
+ 56%|█████▌    | 5/9 [24:29<23:14, 348.56s/it]time_update_imgs 6.855603933334351
+total_mean_acc is 48.006
+ 67%|██████▋   | 6/9 [33:44<20:31, 410.56s/it]total_mean_acc is 47.632
+ 78%|███████▊  | 7/9 [42:22<14:45, 442.59s/it]total_mean_acc is 47.788
+ 89%|████████▉ | 8/9 [50:10<07:30, 450.41s/it]total_mean_acc is 47.757
+100%|██████████| 9/9 [57:33<00:00, 447.94s/it]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[20, 21, 22, 23, 24, 27, 30, 32, 33, 34, 35, 36, 39, 71, 103, 104, 105, 107, 109, 110, 116]
+tensor([ 55.5828, 104.3106,  65.9237,  39.3304,  39.0407,  17.6017,  34.2862,
+         24.5348,  32.0780,  35.4467,  17.9679,  30.9162,  82.0805,  51.2273,
+         46.9248,  36.6628,  24.6741,  31.4010,  15.5407,  63.4885,  46.5282],
+       device='cuda:0')
+time_get_one_class_imgs_function 17.039111375808716
+  0%|          | 0/9 [00:00<?, ?it/s]total_mean_acc is 50.407
+ 11%|█         | 1/9 [03:22<27:01, 202.67s/it]total_mean_acc is 50.882
+ 22%|██▏       | 2/9 [07:04<24:18, 208.30s/it]time_get_imgs 8.58306884765625e-06
+time_construct_exemplar_set 0.11522078514099121
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.1882798671722412
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.0872800350189209
+time_get_imgs 1.6689300537109375e-06
+time_construct_exemplar_set 0.06824326515197754
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.12939715385437012
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.09567642211914062
+time_get_imgs 1.6689300537109375e-06
+time_construct_exemplar_set 0.0602726936340332
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.06257009506225586
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.16458821296691895
+time_update_imgs 0.9725329875946045
+total_mean_acc is 50.000
+ 33%|███▎      | 3/9 [10:25<20:37, 206.33s/it]total_mean_acc is 49.729
+ 44%|████▍     | 4/9 [14:02<17:27, 209.41s/it]total_mean_acc is 49.254
+ 56%|█████▌    | 5/9 [17:49<14:18, 214.69s/it]time_update_imgs 1.8681135177612305
+total_mean_acc is 49.118
+ 67%|██████▋   | 6/9 [22:21<11:35, 231.85s/it]total_mean_acc is 48.575
+ 78%|███████▊  | 7/9 [25:47<07:28, 224.25s/it]total_mean_acc is 48.847
+ 89%|████████▉ | 8/9 [29:29<03:43, 223.58s/it]total_mean_acc is 48.304
+100%|██████████| 9/9 [33:40<00:00, 231.58s/it]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[12, 33, 34, 37, 40, 41, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 64, 71, 74, 86, 92, 93, 103, 105, 107, 108, 109, 110, 112, 116, 117, 118, 122, 124, 125]
+tensor([ 26.2825,  45.7572,  21.2469,  16.5613, 114.4257,  41.7321,  18.0414,
+        121.3165,  50.1129, 133.9602, 168.1884, 137.3896, 329.9964,  89.7503,
+         71.7793,  92.8421,  91.0705,  46.7525, 146.0621,  58.1586,  57.2380,
+        166.7754,  75.4324,  46.4606,  41.2053,  17.5726,  21.0145,  40.1305,
+         18.0008,  26.8562,  82.8023,  29.3256,  49.5670,  22.8868, 382.2814,
+         18.7717,  29.7770,  31.0470,  25.2763,  40.8664, 151.7125,  18.5430],
+       device='cuda:0')
+time_get_one_class_imgs_function 81.1086802482605
+  0%|          | 0/9 [00:00<?, ?it/s]total_mean_acc is 60.509
+ 11%|█         | 1/9 [13:18<1:46:27, 798.47s/it]total_mean_acc is 59.282
+ 22%|██▏       | 2/9 [26:24<1:32:42, 794.66s/it]time_get_imgs 7.62939453125e-06
+time_construct_exemplar_set 0.10982394218444824
+time_get_imgs 1.9073486328125e-06
+time_construct_exemplar_set 0.1324758529663086
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.15863585472106934
+time_get_imgs 3.0994415283203125e-06
+time_construct_exemplar_set 0.08691740036010742
+time_get_imgs 3.814697265625e-06
+time_construct_exemplar_set 0.12278056144714355
+time_get_imgs 3.0994415283203125e-06
+time_construct_exemplar_set 0.13446354866027832
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.10173201560974121
+time_get_imgs 3.0994415283203125e-06
+time_construct_exemplar_set 0.15591096878051758
+time_get_imgs 3.0994415283203125e-06
+time_construct_exemplar_set 0.09531807899475098
+time_get_imgs 1.1682510375976562e-05
+time_construct_exemplar_set 0.10326147079467773
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.11643671989440918
+time_get_imgs 2.86102294921875e-06
+time_construct_exemplar_set 0.13726496696472168
+time_get_imgs 2.86102294921875e-06
+time_construct_exemplar_set 0.10996603965759277
+time_get_imgs 3.0994415283203125e-06
+time_construct_exemplar_set 0.10113286972045898
+time_get_imgs 2.6226043701171875e-06
+time_construct_exemplar_set 0.13040566444396973
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.2665071487426758
+time_get_imgs 3.0994415283203125e-06
+time_construct_exemplar_set 0.2766294479370117
+time_get_imgs 1.2636184692382812e-05
+time_construct_exemplar_set 0.07865738868713379
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.10286951065063477
+time_get_imgs 2.86102294921875e-06
+time_construct_exemplar_set 0.14835476875305176
+time_get_imgs 4.0531158447265625e-06
+time_construct_exemplar_set 0.12977886199951172
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.1541728973388672
+time_get_imgs 3.0994415283203125e-06
+time_construct_exemplar_set 0.10819029808044434
+time_update_imgs 3.06466007232666
+total_mean_acc is 57.363
+ 33%|███▎      | 3/9 [39:19<1:18:53, 788.96s/it]total_mean_acc is 56.426
+ 44%|████▍     | 4/9 [54:10<1:08:17, 819.48s/it]total_mean_acc is 54.842
+ 56%|█████▌    | 5/9 [1:07:42<54:28, 817.14s/it]time_update_imgs 7.068518161773682
+total_mean_acc is 54.708
+ 67%|██████▋   | 6/9 [1:22:12<41:39, 833.05s/it]total_mean_acc is 54.217
+ 78%|███████▊  | 7/9 [1:39:12<29:38, 889.20s/it]total_mean_acc is 53.860
+ 89%|████████▉ | 8/9 [1:54:57<15:05, 905.93s/it]total_mean_acc is 53.614
+100%|██████████| 9/9 [2:10:12<00:00, 908.67s/it]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[33, 34, 35, 36, 46, 49, 55, 58, 60, 61, 62, 63, 64, 65, 66, 67, 70, 71, 72, 73, 74, 76, 77, 78, 79, 92, 96, 103, 104, 105, 107, 108, 109, 110, 112, 116, 117, 124]
+tensor([ 19.1798,  96.8839,  30.3806, 179.0996,  16.3785, 192.7445,  22.0730,
+         72.1210, 105.6629,  49.7356, 129.7886,  66.8581, 106.2099,  67.3595,
+         16.4399,  16.8738,  49.8592, 142.9499, 124.2109,  19.1467,  67.7222,
+         44.8661,  59.6909,  61.1618,  36.4368,  24.9175,  17.4969,  38.5540,
+         45.9261, 103.9188,  34.1403,  16.2456,  21.6347, 163.9785,  16.8709,
+         15.1175, 121.9063,  16.9344], device='cuda:0')
+time_get_one_class_imgs_function 95.44988226890564
+  0%|          | 0/9 [00:00<?, ?it/s]total_mean_acc is 46.349
+ 11%|█         | 1/9 [14:02<1:52:20, 842.62s/it]total_mean_acc is 44.935
+ 22%|██▏       | 2/9 [27:47<1:37:40, 837.17s/it]time_get_imgs 5.0067901611328125e-06
+time_construct_exemplar_set 0.1704092025756836
+time_get_imgs 2.86102294921875e-06
+time_construct_exemplar_set 0.39775776863098145
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.4018893241882324
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.27961206436157227
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.08436441421508789
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.33707356452941895
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.20801496505737305
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.3161616325378418
+time_get_imgs 1.9073486328125e-06
+time_construct_exemplar_set 0.2250828742980957
+time_get_imgs 2.6226043701171875e-06
+time_construct_exemplar_set 0.11415386199951172
+time_get_imgs 1.6689300537109375e-06
+time_construct_exemplar_set 0.19337964057922363
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.15355968475341797
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.12486696243286133
+time_get_imgs 1.6689300537109375e-06
+time_construct_exemplar_set 0.16991758346557617
+time_update_imgs 3.178213119506836
+total_mean_acc is 44.964
+ 33%|███▎      | 3/9 [41:32<1:23:22, 833.77s/it]total_mean_acc is 44.502
+ 44%|████▍     | 4/9 [55:24<1:09:25, 833.11s/it]total_mean_acc is 44.502
+ 56%|█████▌    | 5/9 [1:09:07<55:20, 830.19s/it]time_update_imgs 5.236922025680542
+total_mean_acc is 44.242
+ 67%|██████▋   | 6/9 [1:23:03<41:35, 831.88s/it]total_mean_acc is 44.127
+ 78%|███████▊  | 7/9 [1:36:17<27:20, 820.48s/it]total_mean_acc is 43.954
+ 89%|████████▉ | 8/9 [1:49:41<13:35, 815.38s/it]total_mean_acc is 43.781
+100%|██████████| 9/9 [2:04:27<00:00, 836.84s/it]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[21, 33, 34, 36, 46, 48, 49, 55, 58, 61, 64, 71, 72, 81, 84, 86, 87, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 103, 105, 107, 108, 109, 110, 112, 116, 117, 122, 124]
+tensor([ 20.7776,  22.6238,  28.5345,  45.2189,  18.7606,  23.4143,  46.1190,
+         37.5732,  39.5105,  21.2813,  22.2978,  26.5187,  17.1636,  54.6319,
+         59.7391, 118.4451,  88.1674,  16.3332,  67.3568,  75.7108, 201.6156,
+        167.8831, 101.8466, 239.5728, 142.8937, 173.4191, 118.6767, 150.3057,
+         31.6875, 106.7456,  64.4520, 101.4878,  45.8984, 157.9178,  31.9613,
+         41.9229,  43.4409,  18.4751,  55.9590], device='cuda:0')
+time_get_one_class_imgs_function 82.60962677001953
+  0%|          | 0/9 [00:00<?, ?it/s]total_mean_acc is 48.113
+ 11%|█         | 1/9 [19:42<2:37:42, 1182.76s/it]total_mean_acc is 46.783
+ 22%|██▏       | 2/9 [38:01<2:15:02, 1157.48s/it]time_get_imgs 9.5367431640625e-06
+time_construct_exemplar_set 0.16574788093566895
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.2386634349822998
+time_get_imgs 9.059906005859375e-06
+time_construct_exemplar_set 0.27536773681640625
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.14633631706237793
+time_get_imgs 2.6226043701171875e-06
+time_construct_exemplar_set 0.2618241310119629
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.15269184112548828
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.1204063892364502
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.31498026847839355
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.17874956130981445
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.19957327842712402
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.3194870948791504
+time_update_imgs 2.375152111053467
+total_mean_acc is 46.420
+ 33%|███▎      | 3/9 [56:31<1:54:20, 1143.44s/it]total_mean_acc is 45.573
+ 44%|████▍     | 4/9 [1:16:43<1:36:58, 1163.77s/it]total_mean_acc is 45.525
+ 56%|█████▌    | 5/9 [1:35:55<1:17:21, 1160.41s/it]time_update_imgs 4.88517427444458
+total_mean_acc is 45.331
+ 67%|██████▋   | 6/9 [1:53:41<56:35, 1131.90s/it]  total_mean_acc is 44.944
+ 78%|███████▊  | 7/9 [2:11:41<37:12, 1116.35s/it]total_mean_acc is 44.799
+ 89%|████████▉ | 8/9 [2:29:10<18:16, 1096.22s/it]total_mean_acc is 44.799
+100%|██████████| 9/9 [2:46:46<00:00, 1084.12s/it]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[9, 33, 34, 36, 40, 46, 48, 49, 55, 58, 71, 86, 95, 98, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 124]
+tensor([ 35.0602,  35.0518,  26.7620,  58.1545,  18.4572,  23.7797,  19.5548,
+         67.1249,  15.9185,  36.0223,  63.2131,  20.8893,  22.2535,  15.8258,
+        244.8113, 164.3223, 136.9233, 473.0907, 215.0863, 270.3213, 134.9644,
+        262.2229,  66.7620, 187.8564, 432.7898, 157.2553, 266.4437,  58.1631,
+         82.9547, 236.0974, 200.2478, 363.7187,  27.5029, 122.4894,  19.3619],
+       device='cuda:0')
+time_get_one_class_imgs_function 147.71879959106445
+  0%|          | 0/9 [00:00<?, ?it/s]total_mean_acc is 65.322
+ 11%|█         | 1/9 [26:30<3:32:04, 1590.51s/it]total_mean_acc is 64.523
+ 22%|██▏       | 2/9 [55:21<3:10:28, 1632.58s/it]time_get_imgs 1.049041748046875e-05
+time_construct_exemplar_set 0.32102513313293457
+time_get_imgs 2.1457672119140625e-06
+time_construct_exemplar_set 0.2219710350036621
+time_get_imgs 2.384185791015625e-06
+time_construct_exemplar_set 0.2019970417022705
+time_get_imgs 1.6689300537109375e-06
+time_construct_exemplar_set 0.17759156227111816
+time_get_imgs 1.2874603271484375e-05
+time_construct_exemplar_set 0.14326167106628418
+time_get_imgs 1.6689300537109375e-06
+time_construct_exemplar_set 0.28670215606689453
+time_update_imgs 1.3533108234405518
+total_mean_acc is 63.639
+ 33%|███▎      | 3/9 [1:23:11<2:44:23, 1643.87s/it]total_mean_acc is 62.956
+ 44%|████▍     | 4/9 [1:46:36<2:11:00, 1572.09s/it]total_mean_acc is 62.156
+ 56%|█████▌    | 5/9 [2:10:27<1:41:59, 1529.85s/it]time_update_imgs 5.045934677124023
+total_mean_acc is 61.656
+ 67%|██████▋   | 6/9 [2:34:30<1:15:11, 1503.72s/it]total_mean_acc is 61.606
+ 78%|███████▊  | 7/9 [3:00:24<50:38, 1519.03s/it]  total_mean_acc is 61.490
+ 89%|████████▉ | 8/9 [3:25:59<25:23, 1523.85s/it]total_mean_acc is 61.390
+100%|██████████| 9/9 [3:53:39<00:00, 1564.62s/it]
+final_acc 54.102609154001584
+best_incre_acc [49.75077881619938, 50.88195386702849, 60.50870147255689, 46.34920634920635, 48.113207547169814, 65.32244625895684]

@@ -1,0 +1,79 @@
+begin
+Traceback (most recent call last):
+  File "/public/home/imgbreaker/Desktop/CISFDA/CISFDA/main_test.py", line 167, in <module>
+    weight_net.load_state_dict(torch.load(args.weight_model))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/serialization.py", line 1026, in load
+    return _load(opened_zipfile,
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/serialization.py", line 1438, in _load
+    result = unpickler.load()
+             ^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/serialization.py", line 1408, in persistent_load
+    typed_storage = load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/serialization.py", line 1382, in load_tensor
+    wrap_storage=restore_location(storage, location),
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/serialization.py", line 391, in default_restore_location
+    result = fn(storage, location)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/serialization.py", line 271, in _cuda_deserialize
+    return obj.cuda(device)
+           ^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/_utils.py", line 115, in _cuda
+    untyped_storage = torch.UntypedStorage(
+                      ^^^^^^^^^^^^^^^^^^^^^
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 79.33 GiB of which 1.81 MiB is free. Process 1972910 has 32.89 GiB memory in use. Process 13909 has 2.76 GiB memory in use. Process 2553159 has 1.37 GiB memory in use. Process 2596639 has 2.31 GiB memory in use. Process 2331504 has 7.77 GiB memory in use. Process 2332108 has 7.97 GiB memory in use. Process 2333354 has 7.86 GiB memory in use. Process 3513235 has 6.13 GiB memory in use. Process 3513925 has 6.22 GiB memory in use. Process 4153218 has 1.35 GiB memory in use. Process 4153230 has 1.57 GiB memory in use. Including non-PyTorch memory, this process has 590.00 MiB memory in use. Process 4173513 has 534.00 MiB memory in use. Of the allocated memory 166.03 MiB is allocated by PyTorch, and 9.97 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+ERROR conda.cli.main_run:execute(124): `conda run python -u /public/home/imgbreaker/Desktop/CISFDA/CISFDA/main_test.py --source_model /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/model_source/office_home/20240322-1652-OH_Clipart_ce_singe_gpu_resnet50_best_param.pth --weight_model /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/model_source/office_home/negative/20240415-0004-OH_Clipart_ce_singe_gpu_resnet50_best_neg_param.pth --source Clipart --target Art --model_name final_officehome --txt Clipart2Art.txt --dataset office-home/Art --num_class 65` failed. (See above for error)
+begin
+start training
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[2, 3, 6, 8, 9]
+tensor([37.7781, 21.9617, 39.2064, 25.9403, 26.6849], device='cuda:0')
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[10, 13, 15, 18, 19]
+tensor([24.4087, 16.4181, 20.1305, 30.9864, 53.9182], device='cuda:0')
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[21, 24, 25]
+tensor([34.6283, 22.5747, 25.5012], device='cuda:0')
+[20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[30, 33, 37]
+tensor([21.6543, 48.9538, 22.8633], device='cuda:0')
+[30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[41, 44, 47, 48]
+tensor([15.1442, 15.9703, 23.7066, 17.8094], device='cuda:0')
+[40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[50, 51, 52, 53, 56, 57, 59]
+tensor([84.3981, 36.1354, 29.5797, 61.8945, 26.3863, 33.9680, 15.7660],
+       device='cuda:0')
+[50, 51, 52, 53, 54, 55, 56, 57, 58, 59]

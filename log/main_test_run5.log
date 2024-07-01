@@ -1,0 +1,160 @@
+begin
+start training
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 31, 67, 108]
+tensor([0.5887, 0.4533, 0.5256, 0.3944, 0.8922, 0.4423, 0.3906, 0.3262, 0.4935,
+        0.8987, 0.5891, 0.5841, 0.5624, 0.8135, 0.6758, 1.0000, 0.9543, 0.3756,
+        0.8912, 0.2152, 0.2362, 0.2223, 0.2378], device='cuda:0')
+  0%|          | 0/6 [00:00<?, ?it/s]construct class 0 examplar.
+time_get_imgs 402.43792271614075
+time_construct_exemplar_set 0.5221455097198486
+construct class 1 examplar.
+time_get_imgs 462.4783971309662
+time_construct_exemplar_set 0.5677218437194824
+construct class 2 examplar.
+time_get_imgs 470.6248564720154
+time_construct_exemplar_set 0.5451326370239258
+construct class 3 examplar.
+time_get_imgs 449.77719807624817
+time_construct_exemplar_set 0.28661561012268066
+construct class 4 examplar.
+time_get_imgs 421.03582429885864
+time_construct_exemplar_set 0.4943208694458008
+construct class 5 examplar.
+time_get_imgs 424.03978967666626
+time_construct_exemplar_set 0.3627917766571045
+construct class 6 examplar.
+time_get_imgs 392.61554646492004
+time_construct_exemplar_set 0.24778962135314941
+construct class 7 examplar.
+time_get_imgs 375.5386016368866
+time_construct_exemplar_set 0.3233187198638916
+construct class 8 examplar.
+time_get_imgs 544.1237664222717
+time_construct_exemplar_set 0.8321020603179932
+construct class 9 examplar.
+time_get_imgs 547.122104883194
+time_construct_exemplar_set 0.7208316326141357
+construct class 10 examplar.
+time_get_imgs 530.2487595081329
+time_construct_exemplar_set 0.4317293167114258
+construct class 11 examplar.
+time_get_imgs 559.368950843811
+time_construct_exemplar_set 0.8279373645782471
+construct class 13 examplar.
+time_get_imgs 513.6581230163574
+time_construct_exemplar_set 0.5922400951385498
+construct class 14 examplar.
+time_get_imgs 463.1358823776245
+time_construct_exemplar_set 0.8170382976531982
+construct class 15 examplar.
+time_get_imgs 429.9425013065338
+time_construct_exemplar_set 0.2607710361480713
+construct class 16 examplar.
+time_get_imgs 469.968523979187
+time_construct_exemplar_set 0.7726078033447266
+construct class 17 examplar.
+time_get_imgs 440.3888716697693
+time_construct_exemplar_set 0.28699398040771484
+construct class 18 examplar.
+time_get_imgs 421.3689181804657
+time_construct_exemplar_set 0.3439478874206543
+construct class 19 examplar.
+time_get_imgs 404.388156414032
+time_construct_exemplar_set 0.507270336151123
+construct class 20 examplar.
+time_get_imgs 436.43346524238586
+time_construct_exemplar_set 0.34955692291259766
+construct class 31 examplar.
+time_get_imgs 445.3700165748596
+time_construct_exemplar_set 0.24156618118286133
+construct class 67 examplar.
+time_get_imgs 458.4852969646454
+time_construct_exemplar_set 0.29236721992492676
+construct class 108 examplar.
+time_get_imgs 423.7862615585327
+time_construct_exemplar_set 0.4169952869415283
+time_update_imgs 10497.385093450546
+total_mean_acc is 78.250
+ 17%|█▋        | 1/6 [3:00:53<15:04:25, 10853.16s/it]total_mean_acc is 77.961
+ 33%|███▎      | 2/6 [3:44:19<6:40:08, 6002.02s/it]  total_mean_acc is 77.916
+ 50%|█████     | 3/6 [4:24:34<3:38:11, 4363.94s/it]total_mean_acc is 78.431
+ 67%|██████▋   | 4/6 [5:01:07<1:56:54, 3507.03s/it]total_mean_acc is 77.600
+ 83%|████████▎ | 5/6 [5:36:46<50:13, 3013.71s/it]  total_mean_acc is 77.709
+100%|██████████| 6/6 [6:19:37<00:00, 2863.23s/it]100%|██████████| 6/6 [6:19:37<00:00, 3796.25s/it]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 37, 38, 39, 67, 76]
+tensor([0.4558, 0.5648, 0.5601, 0.4418, 0.2012, 0.8862, 0.6065, 0.8395, 1.0000,
+        0.3119, 0.5211, 0.3845, 0.2385, 0.2542, 0.2974, 0.5334, 0.4457, 0.6838,
+        0.4696, 0.7491], device='cuda:0')
+  0%|          | 0/6 [00:00<?, ?it/s]construct class 21 examplar.
+time_get_imgs 402.273277759552
+time_construct_exemplar_set 0.30989933013916016
+construct class 22 examplar.
+time_get_imgs 406.95440697669983
+time_construct_exemplar_set 0.44669127464294434
+construct class 23 examplar.
+time_get_imgs 389.77529668807983
+time_construct_exemplar_set 0.43307924270629883
+construct class 24 examplar.
+time_get_imgs 422.7036397457123
+time_construct_exemplar_set 0.28505539894104004
+construct class 25 examplar.
+time_get_imgs 390.2563920021057
+time_construct_exemplar_set 0.6856026649475098
+construct class 26 examplar.
+time_get_imgs 420.39687848091125
+  0%|          | 0/6 [1:10:41<?, ?it/s]
+Traceback (most recent call last):
+  File "/public/home/imgbreaker/Desktop/CISFDA/CISFDA/main_test.py", line 426, in <module>
+    reply_buffer.construct_exemplar_set_weight(imgs, idx, weight_dict, moco_model.momentum_model)
+  File "/public/home/imgbreaker/Desktop/CISFDA/CISFDA/function.py", line 476, in construct_exemplar_set_weight
+    class_mean, feature_extractor_output, buffer_output, class_center = compute_class_mean(model, images)
+                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/Desktop/CISFDA/CISFDA/function.py", line 349, in compute_class_mean
+    feas, output = model(x)
+                   ^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/nn/parallel/data_parallel.py", line 186, in forward
+    return self.gather(outputs, self.output_device)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/nn/parallel/data_parallel.py", line 203, in gather
+    return gather(outputs, output_device, dim=self.dim)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/nn/parallel/scatter_gather.py", line 104, in gather
+    res = gather_map(outputs)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/nn/parallel/scatter_gather.py", line 99, in gather_map
+    return type(out)(map(gather_map, zip(*outputs)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/nn/parallel/scatter_gather.py", line 89, in gather_map
+    return Gather.apply(target_device, dim, *outputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/autograd/function.py", line 553, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/nn/parallel/_functions.py", line 75, in forward
+    return comm.gather(inputs, ctx.dim, ctx.target_device)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/CIUDA/lib/python3.11/site-packages/torch/nn/parallel/comm.py", line 231, in gather
+    return torch._C._gather(tensors, dim, destination)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: uncorrectable ECC error encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+ERROR conda.cli.main_run:execute(124): `conda run python -u /public/home/imgbreaker/Desktop/CISFDA/CISFDA/main_test.py --source_model /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/model_source/domainNet-126/20240429-2246-OH_painting_ce_singe_gpu_resnet50_best_param.pth --weight_model /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/model_source/domainNet-126/negative/20240501-1929-OH_painting_ce_singe_gpu_resnet50_best_neg_param.pth --source painting --target real --model_name final_domainnet --txt painting2real.txt --dataset domainnet/real` failed. (See above for error)

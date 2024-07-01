@@ -1,0 +1,196 @@
+
+epoch is 0.000
+total_mean_acc is 65.727
+
+epoch is 1.000
+total_mean_acc is 63.348
+
+epoch is 2.000
+total_mean_acc is 62.026
+
+epoch is 3.000
+total_mean_acc is 62.775
+
+epoch is 4.000
+total_mean_acc is 62.291
+
+epoch is 5.000
+total_mean_acc is 61.674
+
+epoch is 6.000
+total_mean_acc is 61.322
+
+epoch is 7.000
+total_mean_acc is 61.189
+
+epoch is 8.000
+total_mean_acc is 61.145
+
+epoch is 0.000
+total_mean_acc is 78.414
+
+epoch is 1.000
+total_mean_acc is 77.173
+
+epoch is 2.000
+total_mean_acc is 75.811
+
+epoch is 3.000
+total_mean_acc is 74.209
+
+epoch is 4.000
+total_mean_acc is 73.809
+
+epoch is 5.000
+total_mean_acc is 73.168
+
+epoch is 6.000
+total_mean_acc is 73.088
+
+epoch is 7.000
+total_mean_acc is 72.727
+
+epoch is 8.000
+total_mean_acc is 72.447
+
+epoch is 0.000
+total_mean_acc is 71.691
+
+epoch is 1.000
+total_mean_acc is 71.576
+
+epoch is 2.000
+total_mean_acc is 70.457
+
+epoch is 3.000
+total_mean_acc is 68.102
+
+epoch is 4.000
+total_mean_acc is 66.638
+
+epoch is 5.000
+total_mean_acc is 66.523
+
+epoch is 6.000
+total_mean_acc is 66.322
+
+epoch is 7.000
+total_mean_acc is 66.380
+
+epoch is 8.000
+total_mean_acc is 66.322
+
+epoch is 0.000
+total_mean_acc is 67.791
+final acc is 69.753
+
+epoch is 1.000
+total_mean_acc is 66.969
+final acc is 70.141
+
+epoch is 2.000
+total_mean_acc is 67.358
+final acc is 69.554
+
+epoch is 3.000
+total_mean_acc is 64.462
+final acc is 68.484
+
+epoch is 4.000
+total_mean_acc is 64.073
+final acc is 68.541
+
+epoch is 5.000
+total_mean_acc is 63.251
+final acc is 68.115
+
+epoch is 6.000
+total_mean_acc is 62.646
+final acc is 68.560
+
+epoch is 7.000
+total_mean_acc is 62.646
+final acc is 68.323
+
+epoch is 8.000
+total_mean_acc is 62.689
+final acc is 68.484
+
+epoch is 0.000
+total_mean_acc is 64.644
+final acc is 68.820
+
+epoch is 1.000
+total_mean_acc is 64.277
+final acc is 68.789
+
+epoch is 2.000
+total_mean_acc is 62.240
+final acc is 68.229
+
+epoch is 3.000
+total_mean_acc is 62.240
+final acc is 67.407
+
+epoch is 4.000
+total_mean_acc is 60.774
+final acc is 67.399
+
+epoch is 5.000
+total_mean_acc is 60.163
+final acc is 66.984
+
+epoch is 6.000
+total_mean_acc is 60.163
+final acc is 67.268
+
+epoch is 7.000
+total_mean_acc is 60.081
+final acc is 66.984
+
+epoch is 8.000
+total_mean_acc is 59.919
+final acc is 67.338
+
+epoch is 0.000
+total_mean_acc is 54.088
+final acc is 64.284
+
+epoch is 1.000
+total_mean_acc is 53.649
+final acc is 63.979
+
+epoch is 2.000
+total_mean_acc is 51.594
+final acc is 63.033
+
+epoch is 3.000
+total_mean_acc is 51.316
+final acc is 62.878
+
+epoch is 4.000
+total_mean_acc is 49.423
+final acc is 61.523
+
+epoch is 5.000
+total_mean_acc is 49.215
+final acc is 61.598
+
+epoch is 6.000
+total_mean_acc is 48.984
+final acc is 61.667
+
+epoch is 7.000
+total_mean_acc is 48.753
+final acc is 60.964
+
+epoch is 8.000
+total_mean_acc is 48.499
+final acc is 61.390
+final_acc is 64.284
+i-th task acc is 65.72687
+i-th task acc is 78.41410
+i-th task acc is 71.69107
+i-th task acc is 67.79075
+i-th task acc is 64.64358
+i-th task acc is 54.08776

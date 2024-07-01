@@ -1,0 +1,80 @@
+begin
+start training
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[1, 2, 3, 4, 5, 7, 9, 11, 23]
+tensor([60.8203, 30.7534, 35.8439, 21.5943, 43.4911, 22.8757, 69.1548, 15.1184,
+        16.8585], device='cuda:0')
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[1, 10, 11, 12, 13, 14, 16, 19, 31, 35, 61]
+tensor([38.2391, 15.9297, 67.3580, 48.9968, 24.1604, 17.4307, 44.5289, 59.6665,
+        19.9000, 25.2487, 15.4303], device='cuda:0')
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+/var/tmp/tmp99114q2a: line 3: 4173513 Killed                  python -u /public/home/imgbreaker/Desktop/CISFDA/CISFDA/main_test.py --source_model /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/model_source/office_home/20240414-0239-OH_Product_ce_singe_gpu_resnet50_best_param.pth --weight_model /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/model_source/office_home/negative/20240415-0055-OH_Product_ce_singe_gpu_resnet50_best_neg_param.pth --source Product --target Clipart --model_name final_officehome --txt Product2Clipart.txt --dataset office-home/Clipart --num_class 65
+begin
+start training
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[1, 2, 3, 4, 5, 7, 9, 11, 23]
+tensor([60.8198, 30.7533, 35.8440, 21.5944, 43.4913, 22.8754, 69.1549, 15.1182,
+        16.8586], device='cuda:0')
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[1, 10, 11, 12, 13, 14, 16, 19, 31, 35, 61]
+tensor([38.2389, 15.9297, 67.3581, 48.9966, 24.1603, 17.4308, 44.5288, 59.6668,
+        19.8999, 25.2481, 15.4305], device='cuda:0')
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[1, 11, 21, 23, 25, 26, 27, 28, 35, 51]
+tensor([20.0056, 21.5494, 52.0392, 28.9039, 29.3979, 44.5015, 40.6826, 52.5663,
+        22.6393, 16.2269], device='cuda:0')
+[20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[1, 11, 31, 33, 35, 39]
+tensor([16.8852, 16.6557, 34.8481, 34.6202, 39.7873, 34.6001], device='cuda:0')
+[30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[1, 5, 40, 41, 42, 43, 44, 46, 47, 48, 49]
+tensor([34.9356, 16.1237, 27.0018, 24.9038, 35.6322, 19.9744, 32.8960, 20.7143,
+        58.3803, 36.6869, 32.8253], device='cuda:0')
+[40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[1, 11, 23, 28, 50, 51, 52, 53, 55, 57, 58]
+tensor([20.4491, 33.0769, 19.9656, 18.8537, 55.8366, 19.0684, 18.6698, 15.8298,
+        83.4178, 21.8069, 28.8933], device='cuda:0')
+[50, 51, 52, 53, 54, 55, 56, 57, 58, 59]

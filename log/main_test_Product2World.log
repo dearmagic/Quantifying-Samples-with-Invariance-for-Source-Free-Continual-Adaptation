@@ -1,0 +1,67 @@
+begin
+Traceback (most recent call last):
+  File "/public/home/imgbreaker/Desktop/CISFDA/CISFDA/main_test.py", line 149, in <module>
+    contrastive_label = torch.tensor([0]).cuda()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+ERROR conda.cli.main_run:execute(124): `conda run python -u /public/home/imgbreaker/Desktop/CISFDA/CISFDA/main_test.py --source_model /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/model_source/office_home/20240414-0239-OH_Product_ce_singe_gpu_resnet50_best_param.pth --weight_model /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/model_source/office_home/negative/20240415-0055-OH_Product_ce_singe_gpu_resnet50_best_neg_param.pth --source Product --target RealWorld --model_name final_officehome --txt Product2World.txt --dataset office-home/Real_World --num_class 65` failed. (See above for error)
+begin
+start training
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 59]
+tensor([34.0999, 67.1925, 28.9366, 47.5888, 33.0200, 60.4102, 33.1122, 24.7745,
+        61.4276, 55.1591, 35.1708], device='cuda:0')
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 27]
+tensor([52.1516, 27.9003, 67.5107, 61.7078, 30.6050, 69.2683, 38.3500, 26.8516,
+        43.7900, 92.3710, 22.0130], device='cuda:0')
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[4, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+tensor([20.2129, 50.5072, 35.6629, 52.7897, 62.1081, 48.4662, 53.8481, 50.9417,
+        23.4189, 30.3413], device='cuda:0')
+[20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+tensor([76.0863, 36.2947, 88.3600, 73.6032, 34.4967, 50.8550, 32.8749, 36.1786,
+        24.0054, 31.2265], device='cuda:0')
+[30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+tensor([22.1162, 36.2747, 44.6875, 46.7934, 65.1056, 21.8554, 59.4166, 49.8610,
+        66.0045, 69.6529], device='cuda:0')
+[40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+data loaded
+momentum_net loaded
+moco_model loaded
+optimizer loaded
+weight_dict got
+[50, 51, 52, 53, 54, 55, 56, 57, 58, 59]
+tensor([75.6878, 43.5157, 28.2897, 89.1126, 21.3135, 68.8798, 22.3141, 65.1516,
+        24.7578, 50.1820], device='cuda:0')
+[50, 51, 52, 53, 54, 55, 56, 57, 58, 59]
