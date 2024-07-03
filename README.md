@@ -20,17 +20,13 @@ from Art to Clipart on Office-Home-CI:
 ```
 python OH_source_Train.py --gpu 0 --source 0
 ```
-
+### Negative Dataset Generate
+- Second
 
 ## Adapt to the Target Domain 
-- Second, to train ProCA on the target domain (please assign a source-trained model path):
+- , to train ProCA on the target domain (please assign a source-trained model path):
 
 from Art to Clipart on Office-Home-CI:
 ```
 python OH_adapt_2_target.py --gpu 0 --source 0 --target 1 --source_model ./model_source/20220715-1518-OH_Art_ce_singe_gpu_resnet50_best.pkl
-```
-
-from Caltech256 to ImageNet84:
-```
-python IC_from_c_2_i.py --gpu 0 --source_model ./model_source/20220714-1949-single_gpu_cal256_ce_resnet50_best.pkl
 ```
