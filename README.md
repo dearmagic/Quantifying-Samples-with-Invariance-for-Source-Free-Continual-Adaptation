@@ -21,10 +21,10 @@ from Art to Clipart on Office-Home-CI:
 python OH_source_Train.py --gpu 0 --source 0
 ```
 ### Negative Dataset Generate
-- Second
+- Second, to generate the negative dataset to provide negative sample for CISFDA model
 
 ## Adapt to the Target Domain 
-- , to train ProCA on the target domain (please assign a source-trained model path):
+- Third, to train CISFDA on the target domain (please assign a source-trained model path):
 
 from Art to Clipart on Office-Home-CI:
 ```
