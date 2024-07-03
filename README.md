@@ -1,12 +1,6 @@
 # Quantifying-Samples-with-Invariance-for-Source-Free-Continual-Adaptation
 This is the official implementation of Quantifying-Samples-with-Invariance-for-Source-Free-Continual-Adaptation.
 # Getting Started
-## Installation
-- Clone this repository:
-```
-git clone https://github.com/SCUT-AILab/ProCA.git
-cd ProCA
-```
 
 - Install the requirements by runing the following command:
 ```
@@ -27,10 +21,6 @@ from Art to Clipart on Office-Home-CI:
 python OH_source_Train.py --gpu 0 --source 0
 ```
 
-from Caltech256 to ImageNet84:
-```
-python cal256_source_Train.py --gpu 0
-```
 
 ## Adapt to the Target Domain 
 - Second, to train ProCA on the target domain (please assign a source-trained model path):
