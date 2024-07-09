@@ -22,7 +22,7 @@ python OH_source_Train.py --gpu 0 --source 0
 ```
 ## Negative Dataset Generate
 - Second, to generate the negative dataset to provide negative sample for CISFDA model
-- 
+## Negative Model Training
 
 ## Adapt to the Target Domain 
 - Third, to train CISFDA on the target domain (please assign a source-trained model path):
@@ -30,8 +30,7 @@ python OH_source_Train.py --gpu 0 --source 0
 from Art to Clipart on Office-Home-CI:
 ```
 python -u /public/home/imgbreaker/Desktop/CISFDA/CISFDA/main_test.py \
---source_model /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/model_source/domainNet-126/20240429-2246-OH_clipart_ce_singe_gpu_resnet50_best_param.pth \
---weight_model /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/model_source/domainNet-126/negative/20240501-1929-OH_clipart_ce_singe_gpu_resnet50_best_neg_param.pth \
---source clipart --target real --model_name final_domainnet --txt clipart2real.txt --dataset domainnet/real \
- > ./log/main_test_clipart2real.log 2>&1 &
+--source_model /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/model_source/{your_source_model_name} \
+--weight_model /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/model_source/domainNet-126/negative/{your_negative_model_name} \
+--source clipart --target real --model_name final_domainnet --txt clipart2real.txt --dataset domainnet/real 
 ```
