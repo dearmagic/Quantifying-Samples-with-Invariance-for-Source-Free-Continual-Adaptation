@@ -15,7 +15,7 @@ pip install -r requirements.txt
 - Put the corresponding `.txt` file in your path (e.g., '../../dataset/ImageNet-Caltech/caltech_list.txt').
 ## Source Pre-trained
 - First, to obtain the pre-trained model on the source domain: 
-you need to modified the varible _dataset_ which contains the dataset path and the name of domain.
+- You need to modified the varible _dataset_ which contains the dataset path and the name of domain. And the rest of the code also need to modified.
 ```
 python OH_source_Train.py --gpu 0 --source {index_of_domain(0,1,2,3,...)}
 ```
